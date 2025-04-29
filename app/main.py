@@ -10,6 +10,8 @@ import appbar
 import cuerpo
 import barra_lateral  # Importamos el contenido de la barra lateral
 
+
+
 '''
 # Variables Globales
 ruta_imagenes = "./imagenes/"
@@ -38,7 +40,6 @@ def main(page: ft.Page):
     # Crear el contenido central
     contenido = cuerpo.contenido_por_defecto  # Contenido a mostrar por defecto
     contenido_central = cuerpo.crear_cuerpo(page, contenido)
-
 
 
     # Estructura principal de la página
